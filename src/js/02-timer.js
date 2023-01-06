@@ -5,6 +5,12 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 const input = document.querySelector('#datetime-picker');
 // const fp = flatpickr(input);
 
+const timer = document.querySelector('.timer');
+console.log(timer);
+timer.style.display = 'flex';
+timer.style.gap = '10px';
+timer.style.fontSize = '25px';
+
 const startBtn = document.querySelector('button[data-start]');
 startBtn.setAttribute('disabled', true);
 
